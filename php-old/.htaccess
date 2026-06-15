@@ -1,0 +1,10 @@
+# EazyMUZE Web Server Configuration File - Apache Security Rules
+
+# Prevent directory listings
+Options -Indexes
+
+# Deny public web access to environment config, SQL files, and system files
+<FilesMatch "^\.env|web\.config|db_schema\.sql|\.git">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>

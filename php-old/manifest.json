@@ -1,0 +1,21 @@
+{
+    "name": "EazyMUZE - Find Your Muze",
+    "short_name": "EazyMUZE",
+    "description": "Premium erotic social networking platform.",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#0a0406",
+    "theme_color": "#ff2a6d",
+    "icons": [
+        {
+            "src": "assets/img/logo1.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "assets/img/logo1.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
